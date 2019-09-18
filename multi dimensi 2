@@ -1,0 +1,24 @@
+
+package ARRAY;
+
+public class testarrayduaD2 {
+            int nis[][] = {{210651},{210651},{210652}};
+            String nama [][] = {{"Ade"},{"Galih"},{"Baihaqi"}};
+            
+        public void tampil (String n){
+            System.out.println("Identitas Siswa angkatan 24");
+        }    
+        public void namanis (int n){
+            for (int i = 0; i < 1; i++) {
+                for (int j = 0; j < 1; j++) {
+                    System.out.println(nama[i][j]+" : "+nis[i][j]);
+                }
+            }
+}
+        public static void main(String[] args) {
+        testarrayduaD2 siswa = new testarrayduaD2();
+        siswa.tampil (null);
+        siswa.namanis(0);
+                
+    }
+}
