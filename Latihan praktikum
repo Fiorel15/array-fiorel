@@ -92,6 +92,6 @@ public static void main(String[] args) {
         Latihan1();
         Latihan2();
         Latihan3();
-        Latihan4 ();
+        Latihan4();
     }
 }
